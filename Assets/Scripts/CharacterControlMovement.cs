@@ -21,7 +21,10 @@ public class CharacterControlMovement : MonoBehaviour
     public void OnMove(InputValue value)
     {
         movementInput = value.Get<Vector2>().normalized;
+     
     }
+
+    private void OnColl
     // Start is called before the first frame update
     private void FixedUpdate()
     {
