@@ -691,7 +691,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Test
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!4 &868171226
@@ -878,29 +878,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 868171221}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21911a336050d014cb5bb8a80ebfa9d2, type: 3}
+  m_Script: {fileID: 11500000, guid: 6e3a555fee4e8a54dbce849ecbb634ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 7
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
-  groundCollider: {fileID: 868171230}
-  groundFilter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
 --- !u!1 &907042418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1102,6 +1082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   jumpForce: 20
+  runAngleLimit: 60
   groundMask:
     serializedVersion: 2
     m_Bits: 0

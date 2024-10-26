@@ -24,7 +24,6 @@ public class CharacterControlMovement : MonoBehaviour
      
     }
 
-    private void OnColl
     // Start is called before the first frame update
     private void FixedUpdate()
     {
